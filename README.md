@@ -30,7 +30,7 @@ Built with **Node.js, Express, EJS, and Bootstrap**, BlogBook is a great starter
 ---
 
 ## 📂 Project Structure  
-
+```
 |public/                    #Static Files
 |   |--Images/              #Logo.png and Screenshots
 |   |--styles/              #CSS file
@@ -43,7 +43,7 @@ Built with **Node.js, Express, EJS, and Bootstrap**, BlogBook is a great starter
 |--app.js                   #Main Server File
 |--package-lock.json        #Dependencies and Scripts
 |--package.json
-
+```
 ---
 
 ## ⚙️ Installation & Setup  
@@ -62,20 +62,20 @@ Built with **Node.js, Express, EJS, and Bootstrap**, BlogBook is a great starter
 
 ---
 
-##📸 Screenshots
+## 📸 Screenshots
 
 ![BlogBook Screenshot](./public/Images/BlogBook-Homepage.png)
 
 ---
 
-##🤝 Contributing
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 Feel free to fork the repo and submit a PR.
 
 ---
 
-##📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
 
