@@ -81,8 +81,8 @@ This project is licensed under the MIT License.
 
 ---
 
-##👨‍💻 Author
-
-[GitHub](https://github.com/ShouryaShinde)
-[LinkedIn](https://www.linkedin.com/in/shourya-shinde-1a5425330/)
-
+## 👨‍💻 Author
+***Shourya Anil Shinde***
+- [GitHub](https://github.com/ShouryaShinde)
+- [LinkedIn](https://www.linkedin.com/in/shourya-shinde-1a5425330/)
+Made with ❤️ in India.
