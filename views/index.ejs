@@ -1,0 +1,16 @@
+<%- include("partials/header.ejs") %>
+  <div class="container contentBlock">
+    <p class="h1">Blogs 👇</p>
+    <ul>
+      <% posts.forEach( p=> { %>
+        <li><a href="http://localhost:3000/post/<%= p.id %>" class="text-decoration-none">
+            <%= p.title %>
+          </a></li>
+        <% }); %>
+    </ul>
+
+
+  </div>
+
+
+  <%- include("partials/footer.ejs") %>

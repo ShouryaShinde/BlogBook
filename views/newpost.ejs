@@ -1,0 +1,10 @@
+<%- include("partials/header.ejs") %>
+<div class="container">
+  <p class ="h2">New Post</p>
+  <form action="/new/upload" method="POST">
+    <input type="text" name="title"  class="form-control " placeholder="Enter Blog Title" required><br>
+    <textarea name="content" placeholder="Enter Blog Content" class = "form-control" style="height : 300px; " required></textarea><br>
+    <button type="submit" class = "btn btn-success" style = "margin-top: 20px;">Upload</button>
+  </form>
+</div>
+<%- include("partials/footer.ejs") %>

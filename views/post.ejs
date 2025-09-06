@@ -1,0 +1,16 @@
+<%- include("partials/header.ejs") %>
+
+<div class="container">
+<p class = "h2 fw-bold"><%= post.title %></p>
+<p class ="fs-5 text-secondary"><%= post.date %></p>
+<p class = "fs-5"><%=post.content %></p>
+<div class = "d-flex gap-2">
+<form action="/post/<%= post.id %>/edit" method = "GET" >
+  <input type ="submit" value ="Edit Blog" class = "btn btn-primary">
+</form>
+<form action = "/post/<%= post.id%>/delete" method = "POST" >
+  <input type = "submit" value = "Delete Blog" class = "btn btn-danger">
+</form>
+</div>
+</div>
+<%- include("partials/footer.ejs") %>

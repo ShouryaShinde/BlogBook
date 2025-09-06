@@ -1,0 +1,14 @@
+<%- include("partials/header.ejs") %>
+  <div class="container">
+    <p class="h1">Edit Page</p><br><br>
+    <form action="/post/<%= post.id %>/edit" method="POST" >
+      <label class="fs-3" >Title :</label>
+      <input type="text" name="title" class="form-control " value="<%= post.title %>" style = "height: 50px;" required>
+      <br>
+        <label class="fs-3">Content :</label>
+        <textarea name="content" class="form-control" id="floatingTextarea" style="height : 300px" required><%= post.content %>
+      </textarea>
+      <button type="submit" class="btn btn-success" style="margin-top: 20px">Update</button>
+    </form>
+  </div>
+  <%- include("partials/footer.ejs") %>
