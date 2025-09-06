@@ -50,7 +50,7 @@ Built with **Node.js, Express, EJS, and Bootstrap**, BlogBook is a great starter
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/your-username/BlogBook.git
+   git clone https://github.com/ShouryaShinde/BlogBook.git
    cd BlogBook
 2. **Install Dependencies**
    ```bash
@@ -84,5 +84,5 @@ This project is licensed under the MIT License.
 ##👨‍💻 Author
 
 [GitHub](https://github.com/ShouryaShinde)
-[LinkedIn]([https://github.com/your-username](https://www.linkedin.com/in/shourya-shinde-1a5425330/))
+[LinkedIn](https://www.linkedin.com/in/shourya-shinde-1a5425330/)
 
