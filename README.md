@@ -24,7 +24,7 @@ Built with **Node.js, Express, EJS, and Bootstrap**, BlogBook is a great starter
 ## 🛠️ Tech Stack  
 - **Frontend:** EJS, Bootstrap, CSS  
 - **Backend:** Node.js, Express.js  
-- **Database:** (e.g., MongoDB / In-Memory Array for now)  
+- **Database:** In-Memory Array for now  
 - **Other:** Body-parser, Nodemon (for development)  
 
 ---
